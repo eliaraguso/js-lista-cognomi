@@ -20,5 +20,5 @@ listaCognomi.sort();
 alert(listaCognomi);
 
 // Scrivo in che posizione "umana" è finito il cognome inserito all'interno dell'Array
-alert (listaCognomi.indexOf(cognomeCapitalized) + 1);
+alert ("Il tuo cognome è in posizione numero " + (listaCognomi.indexOf(cognomeCapitalized) + 1));
 
